@@ -1,0 +1,136 @@
+body{
+    background: radial-gradient(circle, white 70%, #6d8ed1);
+}
+
+
+
+.start {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1b4aa9;
+    text-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+.start img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50% ;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(253, 245, 245, 0.539);
+
+
+}
+
+.courses, .side {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.crochet, .origami, .pottery, .wood{
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #0b3a99;
+}
+.crochet img, .origami img, .pottery img, .wood img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50% ;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(253, 245, 245, 0.539);
+}
+.crochet:hover, .origami:hover, .pottery:hover, .wood:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.crochet{
+    background: #e5918f;
+    
+}
+.origami{
+    background: #e5b68f;
+}
+.pottery{
+    background: #e5e48f;
+}
+.wood{
+    background: #8fe590;
+}
+
+.end form{
+    width: 300px;
+    margin: auto;
+    background: #8fb0e5;
+    padding: 6px;
+    border-radius: 50px;
+    color: #0b3a99;
+    text-align: center;
+}
+
+input[type="submit"], input[type="reset"] {
+  background-color: #0b3a99;  
+  color: white;
+  border: none;
+  padding: 8px 8px;
+  border-radius: 5px;
+
+}
+
+textarea{
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    resize: none;
+}
+.end textarea:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+.end input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #1b4aa9;
+    cursor: pointer;
+}
+.end{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.side, .part{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #0b3a99;
+    background: #f6b8b7;
+}
+video{
+    height: 300px;
+    width: 300px;
+}
+
+.details th, tr, td {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-collapse: collapse ;
+    background: radial-gradient(circle, #e5918f 20%,#f6b8b7);
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 150px;
+    color: #0b3a99;
+}
+.details img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50% ;
+    object-fit: cover;
+}
