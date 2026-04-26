@@ -120,6 +120,13 @@ textarea{
     color: #0b3a99;
     background: #f6b8b7;
 }
+
+.details h3{
+    text-align: center;
+    color: #0b3a99;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
 video{
     display: block;
     margin: auto;
@@ -151,3 +158,10 @@ table {
     border-spacing: 5px;
 }
 
+a img:hover{
+    box-shadow: 0 4px 10px rgba(253, 245, 245, 0.539);
+}
+a img{
+    padding: 5px;
+    border-radius: 10px;
+}
