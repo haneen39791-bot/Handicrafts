@@ -165,3 +165,12 @@ a img{
     padding: 5px;
     border-radius: 10px;
 }
+@media (max-width : 768px){
+    .courses{
+        flex-direction: column;
+        align-items: center;
+    }
+    .crochet, .origami, .pottery, .wood{
+        width: 90%;
+    }
+}
