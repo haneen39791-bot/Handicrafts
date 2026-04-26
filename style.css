@@ -21,7 +21,7 @@ body{
 
 }
 
-.courses, .side {
+.courses, .sid {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -100,11 +100,19 @@ textarea{
 .end{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 
-.side, .part{
+.side {
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #0b3a99;
+    background: #f6b8b7;
+}
+.part{
     width: 200px;
     padding: 10px;
     border-radius: 10px;
@@ -114,23 +122,34 @@ textarea{
     background: #f6b8b7;
 }
 video{
-    height: 300px;
-    width: 300px;
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 320px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.details th, tr, td {
+.details th, .details td {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    border-collapse: collapse ;
     background: radial-gradient(circle, #e5918f 20%,#f6b8b7);
     padding: 10px;
     border-radius: 10px;
     min-width: 150px;
     color: #0b3a99;
+    
 }
 .details img{
     height: 50px;
     width: 50px;
     border-radius: 50% ;
     object-fit: cover;
+    
 }
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+
